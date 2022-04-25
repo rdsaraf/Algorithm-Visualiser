@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #242b2e;
+  height: 95vh;
+}
+
+#barchart-container {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #242b2e;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow-x: auto;
+}
+
+#arrSize-container .css-3g5hux-Slider,
+#delay-container .css-3g5hux-Slider {
+  background-color: #e07c24;
+}
+
+::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 10px;
+  margin-right: 0.25rem;
+  background-color: #e07c24;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #242b2e;
+  }
+
+  #barchart-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    background-color: #242b2e;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow-x: auto;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    margin-right: 0.25rem;
+    background-color: #242b2e;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
